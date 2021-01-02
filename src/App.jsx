@@ -1,16 +1,12 @@
-import React from "react";
-import Heading from "./Heading";
-import Para from "./Para";
-import List from "./List";
+import React from 'react'
 
-function App() {
-  return (
-    <>
-      <Heading name="Shweta" />
-      <Para />
-      <List /> <Heading name="Manuuu" age={25} />
-    </>
-  );
-}
+function  App() {
+    return(<>
+    <ol>
+      <li>
+        {add(60,4)}
+      </li>
+    </ol>
+  </>),}
 
 export default App;
